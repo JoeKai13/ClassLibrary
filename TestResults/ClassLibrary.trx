@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="eed112ec-a64a-429a-96cc-c53859b4314c" name="jkainovic@EN3110281 2023-04-05 16:30:25" runUser="ENDAVA\jkainovic" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-04-05T16:30:25.5044069+02:00" queuing="2023-04-05T16:30:25.5044069+02:00" start="2023-04-05T16:30:24.8514033+02:00" finish="2023-04-05T16:30:25.5044069+02:00" />
+  <TestSettings name="default" id="e4627bd9-0e83-4512-b54c-b645100c5ec5">
+    <Deployment runDeploymentRoot="jkainovic_EN3110281_2023-04-05_16_30_25" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9dfe600a-d969-454b-81e5-a4c69aa97d9f" testId="4559ef47-a0db-494f-859e-65073ffaf716" testName="FileNameDoesNotExist" computerName="EN3110281" duration="00:00:00.0004281" startTime="2023-04-05T16:30:25.4276949+02:00" endTime="2023-04-05T16:30:25.4283681+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9dfe600a-d969-454b-81e5-a4c69aa97d9f">
+      <Output>
+        <StdOut>TestContext Messages:
+Checking for file 'C:\NotExists.txt' that does not exist.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1b8ac2af-38d0-46ab-aaff-a1bd89518748" testId="0fe7294b-19e9-428b-ac65-c193a2702357" testName="FileNameNullOrEmpty_UsingTryCatch_ShouldThrowArgumentNullException" computerName="EN3110281" duration="00:00:00.0002216" startTime="2023-04-05T16:30:25.4309285+02:00" endTime="2023-04-05T16:30:25.4313676+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b8ac2af-38d0-46ab-aaff-a1bd89518748">
+      <Output>
+        <StdOut>TestContext Messages:
+Checking for an empty file name.</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a302e7a-c4bb-457f-afb7-30b572b714a7" testId="f192e93b-50fc-4a62-96f0-5a8faad164a1" testName="FileNameDoesExist" computerName="EN3110281" duration="00:00:00.0118130" startTime="2023-04-05T16:30:25.3737367+02:00" endTime="2023-04-05T16:30:25.4193359+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a302e7a-c4bb-457f-afb7-30b572b714a7">
+      <Output>
+        <StdOut>TestContext Messages:
+Checking for file 'C:\Users\jkainovic\AppData\Roaming\TestFile.txt'</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a424655f-ca87-45b9-b32a-0f4f5fa2e786" testId="41a06d37-69e8-4e90-9578-62c3e13eae6d" testName="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" computerName="EN3110281" duration="00:00:00.0022539" startTime="2023-04-05T16:30:25.4284248+02:00" endTime="2023-04-05T16:30:25.4308723+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a424655f-ca87-45b9-b32a-0f4f5fa2e786">
+      <Output>
+        <StdOut>TestContext Messages:
+Checking for an empty file name.</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="FileNameDoesNotExist" storage="c:\users\jkainovic\onedrive - endava\desktop\c# fundamentals\classlibrary\classlibrarytest\bin\debug\net6.0\classlibrarytest.dll" id="4559ef47-a0db-494f-859e-65073ffaf716">
+      <Execution id="9dfe600a-d969-454b-81e5-a4c69aa97d9f" />
+      <TestMethod codeBase="C:\Users\jkainovic\OneDrive - ENDAVA\Desktop\C# Fundamentals\ClassLibrary\ClassLibraryTest\bin\Debug\net6.0\ClassLibraryTest.dll" adapterTypeName="executor://mstestadapter/v2" className="ClassLibraryTest.FileProcessTest" name="FileNameDoesNotExist" />
+    </UnitTest>
+    <UnitTest name="FileNameNullOrEmpty_UsingTryCatch_ShouldThrowArgumentNullException" storage="c:\users\jkainovic\onedrive - endava\desktop\c# fundamentals\classlibrary\classlibrarytest\bin\debug\net6.0\classlibrarytest.dll" id="0fe7294b-19e9-428b-ac65-c193a2702357">
+      <Execution id="1b8ac2af-38d0-46ab-aaff-a1bd89518748" />
+      <TestMethod codeBase="C:\Users\jkainovic\OneDrive - ENDAVA\Desktop\C# Fundamentals\ClassLibrary\ClassLibraryTest\bin\Debug\net6.0\ClassLibraryTest.dll" adapterTypeName="executor://mstestadapter/v2" className="ClassLibraryTest.FileProcessTest" name="FileNameNullOrEmpty_UsingTryCatch_ShouldThrowArgumentNullException" />
+    </UnitTest>
+    <UnitTest name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" storage="c:\users\jkainovic\onedrive - endava\desktop\c# fundamentals\classlibrary\classlibrarytest\bin\debug\net6.0\classlibrarytest.dll" id="41a06d37-69e8-4e90-9578-62c3e13eae6d">
+      <Execution id="a424655f-ca87-45b9-b32a-0f4f5fa2e786" />
+      <TestMethod codeBase="C:\Users\jkainovic\OneDrive - ENDAVA\Desktop\C# Fundamentals\ClassLibrary\ClassLibraryTest\bin\Debug\net6.0\ClassLibraryTest.dll" adapterTypeName="executor://mstestadapter/v2" className="ClassLibraryTest.FileProcessTest" name="FileNameNullOrEmpty_UsingExpectedExceptionAttribute" />
+    </UnitTest>
+    <UnitTest name="FileNameDoesExist" storage="c:\users\jkainovic\onedrive - endava\desktop\c# fundamentals\classlibrary\classlibrarytest\bin\debug\net6.0\classlibrarytest.dll" id="f192e93b-50fc-4a62-96f0-5a8faad164a1">
+      <Execution id="1a302e7a-c4bb-457f-afb7-30b572b714a7" />
+      <TestMethod codeBase="C:\Users\jkainovic\OneDrive - ENDAVA\Desktop\C# Fundamentals\ClassLibrary\ClassLibraryTest\bin\Debug\net6.0\ClassLibraryTest.dll" adapterTypeName="executor://mstestadapter/v2" className="ClassLibraryTest.FileProcessTest" name="FileNameDoesExist" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="4559ef47-a0db-494f-859e-65073ffaf716" executionId="9dfe600a-d969-454b-81e5-a4c69aa97d9f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fe7294b-19e9-428b-ac65-c193a2702357" executionId="1b8ac2af-38d0-46ab-aaff-a1bd89518748" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f192e93b-50fc-4a62-96f0-5a8faad164a1" executionId="1a302e7a-c4bb-457f-afb7-30b572b714a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41a06d37-69e8-4e90-9578-62c3e13eae6d" executionId="a424655f-ca87-45b9-b32a-0f4f5fa2e786" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
